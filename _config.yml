@@ -1,0 +1,19 @@
+# Site Information
+title: "Jekyll Site"
+description: "Site Description"
+
+author:
+  name: "Author Name"
+  twitter: "TwitterName"
+  twitter: "GitHubName"
+
+# Build settings
+baseurl: /
+destination: _site
+permalink: pretty
+highlighter: rouge
+kramdown:
+  input: GFM
+  
+# Excludes
+exclude: [CNAME, Gemfile, Gemfile.lock, serve.cmd, LICENSE, README.md]
