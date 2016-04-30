@@ -1,19 +1,21 @@
 # Site Information
 title: "Jekyll Site"
 description: "Site Description"
+url: "Website URL"
 
 author:
   name: "Author Name"
   twitter: "TwitterName"
   twitter: "GitHubName"
 
-# Build settings
-baseurl: /
-destination: _site
-permalink: pretty
-highlighter: rouge
+# Build
+baseurl: '/'
+markdown: kramdown
 kramdown:
   input: GFM
+  syntax_highlighter: rouge
+
+environment: production
   
 # Excludes
 exclude: [CNAME, Gemfile, Gemfile.lock, serve.cmd, LICENSE, README.md]
