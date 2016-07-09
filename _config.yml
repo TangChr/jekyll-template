@@ -3,19 +3,33 @@ title: "Jekyll Site"
 description: "Site Description"
 url: "Website URL"
 
+# Repository
+repo:
+  github_url: 'https://github.com/TangChr/jekyll-template'
+
 author:
   name: "Author Name"
   twitter: "TwitterName"
   twitter: "GitHubName"
 
 # Build
+environment: production
 baseurl: '/'
+permalink: pretty
 markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - serve.cmd
+  - vendor
 
-environment: production
-  
-# Excludes
-exclude: [CNAME, Gemfile, Gemfile.lock, serve.cmd, LICENSE, README.md]
+# Other
+gems:
+  - jekyll-feed
+  - jekyll-sitemap

@@ -41,10 +41,17 @@ a,
 a:link,
 a:active,
 a:visited {
-    color: #fff;
+    color: #e74c3c;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+/* GitHub button */
+#github-repo-link-wrapper {
+	position: absolute;
+	top: 25px;
+	right: 25px;
 }
