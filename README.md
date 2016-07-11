@@ -6,8 +6,9 @@ A simple template for jekyll featuring a simple layout with some basic functiona
 
 ```
 ├── _includes
-│   ├── head.html
-│   └── footer.html
+│   ├── footer.html
+│   ├── github_button.html
+│   └── head.html
 ├── _layouts
 │   ├── default.html
 │   └── post.html
@@ -15,6 +16,7 @@ A simple template for jekyll featuring a simple layout with some basic functiona
 │   └── 1970-01-01-bacon-ipsum.markdown
 │   └── 2016-02-12-just-some-code.markdown
 ├── _sass
+│   ├── _github-button.scss
 │   └── _layout.scss
 │   └── _syntax.scss
 ├── assets
