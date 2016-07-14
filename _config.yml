@@ -3,10 +3,6 @@ title: "Jekyll Site"
 description: "Site Description"
 url: "Website URL"
 
-# Repository
-repo:
-  github_url: 'https://github.com/TangChr/jekyll-template'
-
 author:
   name: "Author Name"
   twitter: "TwitterName"
