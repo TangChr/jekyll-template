@@ -1,4 +1,4 @@
-# Jekyll Template [![Build Status](https://travis-ci.org/TangChr/jekyll-template.svg?branch=master)](https://travis-ci.org/TangChr/jekyll-template)
+[![Build Status](https://img.shields.io/travis/TangChr/jekyll-template.svg?branch=master&style=flat-square)](https://travis-ci.org/TangChr/jekyll-template)
 
 A simple template for jekyll featuring a simple layout with some basic functionality
 
